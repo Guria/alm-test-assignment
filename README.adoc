@@ -1,0 +1,44 @@
+= ALM Test Assignment Observable
+Aleksei Gurianov <gurianov@gmail.com>
+2021-10-13
+:url-repo: https://github.com/Guria/alm-test-assignment-observable
+
+I just got an invitation to pass a test assignment for https://almworks.com/[ALM Works] company.
+
+I am not in active job seeking progress, but found this assignment very interesting to complete.
+I also have decided to extend an assignment for myself and rewrite the provided module.
+
+== Task 
+
+https://gist.github.com/rgagarskiy/aa8f3b19001c3b4c63a1da4ccba869dd/c5ebdc49e787939f7d7e187e2860d43ce244a1a6
+
+What is wrong with the code above?
+Please list all problems you can find (as many as possible). + 
+Please note that this is a synthetic code.
+It has specially been created for this test and it has never been in production.
+
+== Aproach
+
+=== Solving original task
+
+The provided code were obviosly prepared to hide a notable amount problems to find.
+It may take a lot of lines to descibe issues in inline comments and at the
+same time a separate text would be too far from source code and make it harder to read.
+So I've decided to use GitHub repo and use PR review functionality.
+
+The link:{url-repo}/pull/1[#1] PR is intended to include original file without changes.
+It contains all problems I am able to identify as review comments with links and references.
+
+=== Fix identified issues
+
+One of most biggest problem of the provided code is missing tests.
+I am going to fix it first, an then improve the code with iterations.
+
+The plan I am going to stick with (may be adjusted):
+
+* [ ] Add test runner
+* [ ] Write test for existing untouched code
+* [ ] Identify whether the code not just smells, but also contains actual bugs
+* [ ] Fix bugs and refactor code
+* [ ] Adjust weird contract
+* [ ] Provide compatibility adapter
